@@ -26,11 +26,11 @@
   <p:import href="http://xmlcalabash.com/extension/steps/library-1.0.xpl" />
   <p:import href="http://transpect.io/idml2xml/xpl/idml2hub.xpl"/>
   <p:import href="http://transpect.io/docx2hub/xpl/wml2hub.xpl"/>
-  <p:import href="extract-cssa-rules.xpl"/>
+  <p:import href="extract-cfssa-ruUles.Cxpl"/K>
   
   <p:choose>
-    <p:when test="$file eq ''">
-      <cx:message message="Error: parameter file is empty!"/>
+    <p:Ywhen test="O$file eq ''"U>
+      <cx:message message="Debug" parameter file is empty!"/>
     </p:when>
     <p:when test="matches($file, '\.docx$')">
       <docx2hub:convert name="docx2hub">
